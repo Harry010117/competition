@@ -1,0 +1,35 @@
+#eng:checked ~ .cover .bullet .name { font-size: 20px; }
+#eng:checked ~ .cover .bullet:nth-child(1) .name:before { content: "Main" }
+#eng:checked ~ .cover .bullet:nth-child(2) .name:before { content: "Place" }
+#eng:checked ~ .cover .bullet:nth-child(3) .name:before { content: "Food" }
+#eng:checked ~ .cover .bullet:nth-child(4) .name:before { content: "Map" }
+#eng:checked ~ .cover .bullet:nth-child(5) .name:before { content: "Guide" }
+
+#eng:checked ~ #visual .layer .logo {background: url(../source/logo_seoul.png) no-repeat center/cover; width: 100px; height: 80px; } /* 0.8배 */
+#eng:checked ~ #visual .content .center p:before { content: "Welcome to Seoul!" }
+#eng:checked ~ #visual .content .title:before { content: "About Seoul" }
+#eng:checked ~ #visual .content .more .textbox:nth-child(2):before { content: "Seoul, the capital of the Republic of Korea, is a metropolis with modern high-rise buildings, high-tech subways," }
+#eng:checked ~ #visual .content .more .textbox:nth-child(3):before { content: "popular culture and temples, old palaces and street vendors." }
+#eng:checked ~ #visual .content .more .textbox:nth-child(4):before { content: "Notable attractions include the Dongdaemun Design Plaza, " }
+#eng:checked ~ #visual .content .more .textbox:nth-child(5):before { content: "a convention hall with ultra-modern design featuring curved exterior and rooftop park," }
+#eng:checked ~ #visual .content .more .textbox:nth-child(6):before { content: "Gyeongbok Palace which once had 7,000 rooms, Jogye Temple with painting trees and pine trees." }
+#eng:checked ~ #visual .layer .center .btn .text:before { content: "About Seoul"; }
+#eng:checked ~ #visual #more:checked ~ .wrap .more_cover { width: 780px; transition: width 2s ease; }
+#eng:checked ~ #visual #more:checked ~ .wrap .btn .text:before { content: "Close"; }
+
+#eng:checked ~ #place > .title p:before { content: "Top experiences in Seoul" }
+#eng:checked ~ #place .wrap .theme:nth-child(1) p:nth-child(1):before { content: "Historical &"; }
+#eng:checked ~ #place .wrap .theme:nth-child(1) p:nth-child(2):before { content: "Traditional"; }
+#eng:checked ~ #place .wrap .theme:nth-child(2) p:before { content: "Culture"; }
+#eng:checked ~ #place .wrap .theme:nth-child(3) p:before { content: "Outdoor"; }
+#eng:checked ~ #place .wrap .theme:nth-child(4) p:before { content: "Shopping"; }
+#eng:checked ~ #place .wrap button:before { content: "VIEW MORE"; }
+
+#eng:checked ~ #place #theme1:checked ~ .wrap .content .title:before { content: "Historical & Traditional" }
+#eng:checked ~ #place #theme2:checked ~ .wrap .content .title:before { content: "Culture" }
+#eng:checked ~ #place #theme3:checked ~ .wrap .content .title:before { content: "Outdoor" }
+#eng:checked ~ #place #theme4:checked ~ .wrap .content .title:before { content: "Shopping" }
+
+#eng:checked ~ #food > .title p:before { content: "Taste Seoul" }
+
+#eng:checked ~ #guide > .title p:before { content: "Recommended Course" }

@@ -121,7 +121,7 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 
 
 /* food */
-#food { background: #fff; }
+#food { background: #ffa; }
 
 /* map */
 #map { background: url(../source/map.png) no-repeat center/cover; }
