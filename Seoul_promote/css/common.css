@@ -29,9 +29,9 @@ label { display: block; }
 input[type='radio'],
 input[type='checkbox'] { display: none; }
 section { width: 100%; height: 100vh; }
-section:not(#visual) .title { display: flex; flex-direction: column; align-items: center; }
-section:not(#visual) .title p { font-size: 40px; }
-section:not(#visual) .title .bar { margin-top: 10px; width: 45px; height: 3px; background: #6789ca; }
+section:not(#visual) > .title { display: flex; flex-direction: column; align-items: center; }
+section:not(#visual) > .title p { font-size: 40px; }
+section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px; background: #6789ca; }
 
 .cover { display: flex; flex-direction: column; justify-content: center; position: fixed; height: 100vh; right: 30px; width: 10px; z-index: 11; }
 .bullet_box { height: 305px; display: flex; flex-direction: column; justify-content: space-between; }
@@ -101,6 +101,26 @@ section:not(#visual) .title .bar { margin-top: 10px; width: 45px; height: 3px; b
 #place .theme:nth-child(2) .image { background: url(../source/theme2.png) no-repeat center/cover; }
 #place .theme:nth-child(3) .image { background: url(../source/theme3.jpg) no-repeat center/cover; }
 #place .theme:nth-child(4) .image { background: url(../source/theme4.jpg) no-repeat center/cover; }
-#place .content { width: calc(100% - (18.7vh + 15px)); height: 100%; background: #dfdfdd; }
+#place .content { width: calc(100% - (18.7vh + 15px)); height: 100%; background: #dfdfdd; display: flex; justify-content: center; align-items: center; }
+#place .content .content_wrap { width: calc(100% - 100px); height: calc(100% - 100px); }
+#place .content .title { font-size: 35px; color: #504e49; }
+#place .content .slide_box { position: relative; margin-top: 30px; width: 100%; height: calc(100% - 40px); display: flex; justify-content: space-between; }
+#place .content .text { position: absolute; left: 25%; bottom: 6%; width: 30vh; height: 30vh; background: #aaf; font-weight: 200; }
+#place .content .left,
+#place .content .right { background: #faa; width: 28%; height: 40%; display: flex; justify-content: center; align-items: center; }
+#place .content .center_block { background: #fff; width: 38%; height: 100%; }
+#place .content .center_block .center { background: #000; width: 100%; height: 75%; }
+#place .content .center_block .controller { width: 175px; height: 25%; display: flex; justify-content: space-between; align-items: center; margin-right: 15px; float: right; }
+#place .content .center_block .controller div { display: flex; justify-content: center; align-items: center; color: #fff }
+#place .content .center_block .controller .toL { width: 80px; height: 80px; background: #504e49; }
+#place .content .center_block .controller .toR { width: 80px; height: 80px; background: #a4a199; }
+#place .content .left .image,
+#place .content .right .image { width: 100%; height: 100%; }
 
+#theme1:checked ~ .wrap .content .title:before { content: "Historical & Traditional" }
+#theme2:checked ~ .wrap .content .title:before { content: "Culture" }
+#theme3:checked ~ .wrap .content .title:before { content: "Outdoor" }
+#theme4:checked ~ .wrap .content .title:before { content: "Shopping" }
+
+/* food */
 #food { background: #ffa; }
