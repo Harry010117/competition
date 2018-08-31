@@ -35,7 +35,7 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 
 .cover { display: flex; flex-direction: column; justify-content: center; position: fixed; height: 100vh; right: 30px; width: 10px; z-index: 11; }
 .bullet_box { height: 305px; display: flex; flex-direction: column; justify-content: space-between; }
-.bullet { background: #dfdfdd; width: 10px; height: 45px; display: flex; justify-content: center; align-items: center; }
+.bullet { background: #dfdfdd; width: 10px; height: 45px; display: flex; justify-content: center; align-items: center; cursor: pointer; }
 .bullet .name { transition: 0.3s; width: 60px; font-size: 20px; opacity: 0; color: #504e49; position: absolute; left: -70px; text-align: right; }
 .bullet:hover .name { opacity: 1; }
 
@@ -53,12 +53,12 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 #visual .layer .center .btn { cursor: pointer; position: relative; overflow: hidden; }
 #visual .layer .center .btn .text:before { content: "About Seoul"; }
 #visual .layer .center .btn .text { transition: 0.5s ease; position: relative; z-index: 10; }
-#visual .layer .center .btn:hover .text { transition: 0.5s ease; color: #000; }
+#visual .layer .center .btn:hover .text { color: #000; }
 #visual .layer .center .hov_block { width: 150px; height: 150px; background: #fff; position: absolute; }
 #visual .layer .center .hov_block.toL { transition: transform .5s ease; left: 0; top: -100%; transform: rotateZ(-60deg) translate(-80px, -160px); }
-#visual .layer .center .btn:hover .toL { transition: transform .5s ease; transform: rotateZ(-60deg) translate(-35px, -70px); }
+#visual .layer .center .btn:hover .toL { transform: rotateZ(-60deg) translate(-35px, -70px); }
 #visual .layer .center .hov_block.toR { transition: transform .5s ease; left: 0; top: -100%; transform: rotateZ(-60deg) translate(80px, 160px); }
-#visual .layer .center .btn:hover .toR { transition: transform .5s ease; transform: rotateZ(-60deg) translate(35px, 70px); }
+#visual .layer .center .btn:hover .toR { transform: rotateZ(-60deg) translate(35px, 70px); }
 #visual .layer .bar { height: 0px; width: 1px; background: #fff; margin: 0 0px; transition: height .75s ease-out, margin .75s; }
 #visual .layer .more_cover { width:  0px; overflow: hidden; transition: width 2s ease-out; }
 #visual .layer .more > * { margin-left: -100%; opacity: 0; transition: margin-left 1s, opacity .5s }
@@ -90,12 +90,12 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 
 /* place */
 #place { display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
-#place .wrap { width: 90vw; height: 80vh; display: flex; justify-content: space-between; }
+#place .wrap { width: 85vw; height: 80vh; display: flex; justify-content: space-between; }
 #place .theme_block { width: 19vh; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
 #place .theme { overflow: hidden; position: relative; width: 19vh; height: 19vh; display: flex; justify-content: center; align-items: center; }
 #place .layer:before { z-index: 10; content: ""; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,0,0,0.4); }
 #place .text { z-index: 10; position: absolute; color: #dfdfdd; font-weight: 400; left: 10px; bottom: 10px; }
-#place .image { transition: .5s; filter: blur(2px); width: 100%; height: 100%; }
+#place .image { transition: .5s; filter: blur(3px); width: 100%; height: 100%; }
 #place .theme:hover .image { filter: blur(0px); }
 #place .theme:nth-child(1) .image { background: url(../source/theme1.jpg) no-repeat center/cover; }
 #place .theme:nth-child(2) .image { background: url(../source/theme2.png) no-repeat center/cover; }
@@ -105,10 +105,14 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 #place .content .content_wrap { width: calc(100% - 100px); height: calc(100% - 100px); }
 #place .content .title { font-size: 35px; color: #504e49; }
 #place .content .slide_box { position: relative; margin-top: 30px; width: 100%; height: calc(100% - 40px); display: flex; justify-content: space-between; }
-#place .content .text { position: absolute; left: 25%; bottom: 6%; width: 30vh; height: 30vh; background: #aaf; font-weight: 200; }
+#place .content .text { position: absolute; left: 25%; bottom: 6%; width: 30vh; height: 30vh; background: #504e49; font-weight: 200; }
+#place .content .text > button { width: 40%; height: 40px; border: 1px solid #fff; color: #fff; background: inherit; display: block; position: absolute; bottom: 20px; cursor: pointer; transition: .5s; font-size: 11px; }
+#place .content .text > button:hover { background: #fff; color: #000; }
+#place .content .left_block,
+#place .content .right_block { width: 28%; height: 40%; display: flex; justify-content: center; align-items: center; }
 #place .content .left,
 #place .content .right { background: #faa; width: 28%; height: 40%; display: flex; justify-content: center; align-items: center; }
-#place .content .center_block { background: #fff; width: 38%; height: 100%; }
+#place .content .center_block { width: 38%; height: 100%; }
 #place .content .center_block .center { background: #000; width: 100%; height: 75%; }
 #place .content .center_block .controller { width: 175px; height: 25%; display: flex; justify-content: space-between; align-items: center; margin-right: 15px; float: right; }
 #place .content .center_block .controller div { display: flex; justify-content: center; align-items: center; color: #fff }
@@ -124,3 +128,6 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 
 /* food */
 #food { background: #ffa; }
+
+/* map */
+#map { background: url(../source/map.png) no-repeat center/cover; }
