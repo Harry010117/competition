@@ -1,6 +1,6 @@
 var count = 0
 var scrollEvent = false
-const sh = $(window).height()
+var sh = $(window).height()
 
 function loadOn () {
 	$("html, body").scrollTop(sh*count)
