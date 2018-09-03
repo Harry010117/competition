@@ -113,11 +113,11 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 #place .content .arrow_box div.arrow { color: #a4a199; }
 #place .content .arrow_box .arrow { color: #504e49; display: none; position: absolute; }
 #place .content .slide .image { width: 80%; height: 70%; }
-#place .content .slide .desc { background: #504e49; width: 45%; height: 35%; position: absolute; left: 5%; bottom: 5%; transform: scale(0); transition: .5s; display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
+#place .content .slide .desc { background: rgba(80,78,72,0.8); width: 45%; height: 35%; position: absolute; left: 5%; bottom: 5%; transform: scale(0); transition: .5s; display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
 #place .content .slide .text { width: 90%; color: #fff; font-size: 15px; text-align: center; }
 #place .content .slide .text:nth-child(1) { font-size: 20px; }
 #place .content .slide .text:nth-child(2) { margin-top: 5px; font-size: 16px; line-height: 1.3; }
-#place .content .slide .modal_btn { transition: background .5s; display: flex; justify-content: center; align-items: center; width: 50%; height: 25%; border: 1px solid #fff; box-sizing: border-box; background: transparent; }
+#place .content .slide .modal_btn { transition: background .5s; display: flex; justify-content: center; align-items: center; width: 33.33%; height: 16.67%; border: 1px solid #fff; box-sizing: border-box; background: transparent; }
 #place .content .slide .modal_btn div { color: #fff; }
 #place .content .slide .modal_btn:hover {  transition: background .5s; background: #fff; }
 #place .content .slide .modal_btn:hover div { color: #504e49 }
