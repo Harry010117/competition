@@ -22,12 +22,88 @@
 #kor:checked ~ #place .wrap .theme:nth-child(2) p:before { content: "문화"; }
 #kor:checked ~ #place .wrap .theme:nth-child(3) p:before { content: "야외활동"; }
 #kor:checked ~ #place .wrap .theme:nth-child(4) p:before { content: "쇼핑"; }
-#kor:checked ~ #place .wrap button:before { content: "더 보기"; }
+#kor:checked ~ #place .wrap .modal_btn div:before { content: "더 보기"; }
 
 #kor:checked ~ #place #theme1:checked ~ .wrap .content .title:before { content: "전통과 역사" }
 #kor:checked ~ #place #theme2:checked ~ .wrap .content .title:before { content: "문화" }
 #kor:checked ~ #place #theme3:checked ~ .wrap .content .title:before { content: "야외활동" }
 #kor:checked ~ #place #theme4:checked ~ .wrap .content .title:before { content: "쇼핑" }
+
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"경복궁";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"조선 왕조의 법궁";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"종묘";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"조선 왕조의 유교 사당";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"창덕궁";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"후원이 있는 한국의 유일한 궁궐";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"북촌 한옥마을";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"조선 왕조의 두 궁궐 사이에 위치한 한옥 마을";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/tradition/img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"서대문 형무소";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"일제 식민지 시대의 독립 운동에서 근대사에 이르기까지";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/tradition/img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"문화역서울 284";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"지금은 복합문화공간이 된 구 서울역사";}
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/tradition/img6.jpg) no-repeat center/cover; }
+
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
 
 #kor:checked ~ #food > .title p:before { content: "서울을 맛보다" }
 

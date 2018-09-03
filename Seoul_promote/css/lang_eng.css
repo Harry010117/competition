@@ -23,12 +23,89 @@
 #eng:checked ~ #place .wrap .theme:nth-child(2) p:before { content: "Culture"; }
 #eng:checked ~ #place .wrap .theme:nth-child(3) p:before { content: "Outdoor"; }
 #eng:checked ~ #place .wrap .theme:nth-child(4) p:before { content: "Shopping"; }
-#eng:checked ~ #place .wrap button:before { content: "VIEW MORE"; }
+#eng:checked ~ #place .wrap .modal_btn div:before { content: "VIEW MORE"; }
 
 #eng:checked ~ #place #theme1:checked ~ .wrap .content .title:before { content: "Historical & Traditional" }
 #eng:checked ~ #place #theme2:checked ~ .wrap .content .title:before { content: "Culture" }
 #eng:checked ~ #place #theme3:checked ~ .wrap .content .title:before { content: "Outdoor" }
 #eng:checked ~ #place #theme4:checked ~ .wrap .content .title:before { content: "Shopping" }
+
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"Gyeongbokgung Palace"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"The court of the Joseon Dynasty"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"Jongmyo"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Confucian shrine of Joseon Dynasty"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"Changdeokgung Palace"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"Korea's only palace with a backyard"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"Bukchon Hanok Village"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"Hanok village located between the two palaces of the Joseon Dynasty"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/tradition/img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"Seodaemun Prison"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"From independence movement of Japanese colonial period to modern history of Korea"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/tradition/img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"Culture Station Seoul 284"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"Old Seoul Station, now a complex cultural space"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/tradition/img6.jpg) no-repeat center/cover; }
+
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+
 
 #eng:checked ~ #food > .title p:before { content: "Taste Seoul" }
 

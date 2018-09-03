@@ -24,6 +24,7 @@
 html { scroll-behavior: smooth; }
 body { overflow-y: hidden; position: relative; font-family: NanumSquare; font-weight: 200; }
 .bullet,
+button,
 label { display: block; }
 input[type='radio'],
 input[type='checkbox'] { display: none; }
@@ -92,32 +93,66 @@ section:not(#visual) > .title .bar { margin-top: 10px; width: 45px; height: 3px;
 #place .theme_block { width: 19vh; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
 #place .theme { overflow: hidden; position: relative; width: 19vh; height: 19vh; display: flex; justify-content: center; align-items: center; }
 #place .layer:before { z-index: 10; content: ""; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,0,0,0.4); }
-#place .text { z-index: 10; position: absolute; color: #dfdfdd; font-weight: 400; left: 10px; bottom: 10px; }
-#place .image { transition: .5s; filter: blur(3px); width: 100%; height: 100%; }
+#place .theme_block .text { z-index: 10; position: absolute; color: #dfdfdd; font-weight: 400; left: 10px; bottom: 10px; }
+#place .theme .image { transition: .5s; filter: blur(3px); width: 100%; height: 100%; }
 #place .theme:hover .image { filter: blur(0px); }
 #place .theme:nth-child(1) .image { background: url(../source/theme1.jpg) no-repeat center/cover; }
 #place .theme:nth-child(2) .image { background: url(../source/theme2.png) no-repeat center/cover; }
 #place .theme:nth-child(3) .image { background: url(../source/theme3.jpg) no-repeat center/cover; }
 #place .theme:nth-child(4) .image { background: url(../source/theme4.jpg) no-repeat center/cover; }
 #place .content { width: calc(100% - (18.7vh + 15px)); height: 100%; background: #dfdfdd; display: flex; justify-content: center; align-items: center; }
-#place .content .content_wrap { width: calc(100% - 100px); height: calc(100% - 100px); }
+#place .content .content_wrap { position: relative; width: calc(100% - 60px); height: calc(100% - 60px); display: flex; flex-direction: column; }
 #place .content .title { font-size: 35px; color: #504e49; }
-#place .content .slide_box { position: relative; margin-top: 30px; width: 100%; height: calc(100% - 40px); display: flex; justify-content: space-between; }
-#place .content .text { position: absolute; left: 25%; bottom: 6%; width: 30vh; height: 30vh; background: #504e49; font-weight: 200; }
-#place .content .text > button { width: 40%; height: 40px; border: 1px solid #fff; color: #fff; background: inherit; display: block; position: absolute; bottom: 20px; cursor: pointer; transition: .5s; font-size: 11px; }
-#place .content .text > button:hover { background: #fff; color: #000; }
-#place .content .left_block,
-#place .content .right_block { width: 28%; height: 40%; display: flex; justify-content: center; align-items: center; }
-#place .content .left,
-#place .content .right { background: #faa; width: 28%; height: 40%; display: flex; justify-content: center; align-items: center; }
-#place .content .center_block { width: 38%; height: 100%; }
-#place .content .center_block .center { background: #000; width: 100%; height: 75%; }
-#place .content .center_block .controller { width: 175px; height: 25%; display: flex; justify-content: space-between; align-items: center; margin-right: 15px; float: right; }
-#place .content .center_block .controller div { display: flex; justify-content: center; align-items: center; color: #fff }
-#place .content .center_block .controller .toL { width: 80px; height: 80px; background: #504e49; }
-#place .content .center_block .controller .toR { width: 80px; height: 80px; background: #a4a199; }
-#place .content .left .image,
-#place .content .right .image { width: 100%; height: 100%; }
+#place .content .slide_align { margin-top: 30px; display: flex; justify-content: center; align-items: center; width: 100%; height: calc(100% - 60px); }
+#place .content .slide_controller { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+#place .content .slide_box { position: relative; width: 95%; height: 100%; display: flex; justify-content: space-between; align-items: center; }
+#place .content .slide { position: relative; width: 0%; height: 0%; opacity: 0; transition: .5s; display: flex; justify-content: center; align-items: center; }
+#place .content .arrow_box { z-index: 10; position: absolute; width: 20px; height: 50px; }
+#place .content .arrow_box.L { left: 0 }
+#place .content .arrow_box.R { right: 0 }
+#place .content .arrow_box div.arrow { color: #a4a199; }
+#place .content .arrow_box .arrow { color: #504e49; display: none; position: absolute; }
+#place .content .slide .image { width: 80%; height: 70%; }
+#place .content .slide .desc { background: #504e49; width: 45%; height: 35%; position: absolute; left: 5%; bottom: 5%; transform: scale(0); transition: .5s; display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
+#place .content .slide .text { width: 90%; color: #fff; font-size: 15px; text-align: center; }
+#place .content .slide .text:nth-child(1) { font-size: 20px; }
+#place .content .slide .text:nth-child(2) { margin-top: 5px; font-size: 16px; line-height: 1.3; }
+#place .content .slide .modal_btn { transition: background .5s; display: flex; justify-content: center; align-items: center; width: 50%; height: 25%; border: 1px solid #fff; box-sizing: border-box; background: transparent; }
+#place .content .slide .modal_btn div { color: #fff; }
+#place .content .slide .modal_btn:hover {  transition: background .5s; background: #fff; }
+#place .content .slide .modal_btn:hover div { color: #504e49 }
+
+#pos1:checked ~ .content_wrap .slide:nth-child(2) .desc { transform: scale(1); }
+#pos2:checked ~ .content_wrap .slide:nth-child(3) .desc { transform: scale(1); }
+#pos3:checked ~ .content_wrap .slide:nth-child(4) .desc { transform: scale(1); }
+#pos4:checked ~ .content_wrap .slide:nth-child(5) .desc { transform: scale(1); }
+#pos5:checked ~ .content_wrap .slide:nth-child(6) .desc { transform: scale(1); }
+#pos6:checked ~ .content_wrap .slide:nth-child(7) .desc { transform: scale(1); }
+#pos1:checked ~ .content_wrap .arrow_box > .arrow:nth-child(1) { display: block; }
+#pos2:checked ~ .content_wrap .arrow_box > .arrow:nth-child(2) { display: block; }
+#pos3:checked ~ .content_wrap .arrow_box > .arrow:nth-child(3) { display: block; }
+#pos4:checked ~ .content_wrap .arrow_box > .arrow:nth-child(4) { display: block; }
+#pos5:checked ~ .content_wrap .arrow_box > .arrow:nth-child(5) { display: block; }
+#pos6:checked ~ .content_wrap .arrow_box > .arrow:nth-child(6) { display: block; }
+
+#pos1:checked ~ .content_wrap .slide:nth-child(1) { width: 33.33%; height: 50%; opacity: 1; }
+#pos1:checked ~ .content_wrap .slide:nth-child(2) { width: 66.66%; height: 100%; opacity: 1; }
+#pos1:checked ~ .content_wrap .slide:nth-child(3) { width: 33.33%; height: 50%; opacity: 1; }
+#pos2:checked ~ .content_wrap .slide:nth-child(2) { width: 33.33%; height: 50%; opacity: 1; }
+#pos2:checked ~ .content_wrap .slide:nth-child(3) { width: 66.66%; height: 100%; opacity: 1; }
+#pos2:checked ~ .content_wrap .slide:nth-child(4) { width: 33.33%; height: 50%; opacity: 1; }
+#pos3:checked ~ .content_wrap .slide:nth-child(3) { width: 33.33%; height: 50%; opacity: 1; }
+#pos3:checked ~ .content_wrap .slide:nth-child(4) { width: 66.66%; height: 100%; opacity: 1; }
+#pos3:checked ~ .content_wrap .slide:nth-child(5) { width: 33.33%; height: 50%; opacity: 1; }
+#pos4:checked ~ .content_wrap .slide:nth-child(4) { width: 33.33%; height: 50%; opacity: 1; }
+#pos4:checked ~ .content_wrap .slide:nth-child(5) { width: 66.66%; height: 100%; opacity: 1; }
+#pos4:checked ~ .content_wrap .slide:nth-child(6) { width: 33.33%; height: 50%; opacity: 1; }
+#pos5:checked ~ .content_wrap .slide:nth-child(5) { width: 33.33%; height: 50%; opacity: 1; }
+#pos5:checked ~ .content_wrap .slide:nth-child(6) { width: 66.66%; height: 100%; opacity: 1; }
+#pos5:checked ~ .content_wrap .slide:nth-child(7) { width: 33.33%; height: 50%; opacity: 1; }
+#pos6:checked ~ .content_wrap .slide:nth-child(6) { width: 33.33%; height: 50%; opacity: 1; }
+#pos6:checked ~ .content_wrap .slide:nth-child(7) { width: 66.66%; height: 100%; opacity: 1; }
+#pos6:checked ~ .content_wrap .slide:nth-child(8) { width: 33.33%; height: 50%; opacity: 1; }
 
 
 /* food */
