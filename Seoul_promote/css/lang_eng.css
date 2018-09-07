@@ -25,16 +25,20 @@
 #eng:checked ~ #place .wrap .theme:nth-child(4) p:before { content: "Shopping"; }
 #eng:checked ~ #place .wrap .modal_btn div:before { content: "VIEW MORE"; }
 
-#eng:checked ~ #place #theme1:checked ~ .wrap .content .title:before { content: "Historical & Traditional" }
-#eng:checked ~ #place #theme2:checked ~ .wrap .content .title:before { content: "Culture" }
-#eng:checked ~ #place #theme3:checked ~ .wrap .content .title:before { content: "Outdoor" }
-#eng:checked ~ #place #theme4:checked ~ .wrap .content .title:before { content: "Shopping" }
+#eng:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .title:before { content: "Historical & Traditional" }
+#eng:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .desc:before { content: "Experience traditional Korean culture" }
+#eng:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .title:before { content: "Culture" }
+#eng:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .desc:before { content: "Seoul - the city that never sleeps" }
+#eng:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .title:before { content: "Outdoor" }
+#eng:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .desc:before { content: "Experience various outdoor activities" }
+#eng:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .title:before { content: "Shopping" }
+#eng:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .desc:before { content: "top items to buy in order to commemorate your trip to Seoul." }
 
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"Gyeongbokgung Palace"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"The court of the Joseon Dynasty"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"Gyeongbokgung Palace was the first and largest of the royal palaces built during the Joseon Dynasty."; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"Jongmyo"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Confucian shrine of Joseon Dynasty"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Jongmyo is a shrine for the royal ancestral rites of the Joseon Dynasty."; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"Changdeokgung Palace"; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"Korea's only palace with a backyard"; }
@@ -49,61 +53,61 @@
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"Old Seoul Station, now a complex cultural space"; }
 #eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/tradition/img6.jpg) no-repeat center/cover; }
 
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"Dongdaemun Design Plaza"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"Boasting amazing architecture, this space is used for the latest and hottest exhibitions in Seoul."; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/culture/img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"Hongdae"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Hongdae is known for its cafes, clubs, fashion, underground music and art festivals."; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/culture/img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"Klive K-Pop Hologram Concert"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"Jump into red carpet photos with your favorite K-pop stars, watch holograms of big-name acts like Psy, Bigbang, and 2NE1 performing onstage."; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/culture/img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"The Sejong Center for the Performing Arts"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"The Sejong Center for the Performing Arts is a multipurpose arts center that is one of the world's best performance venues."; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/culture/img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"SMTOWN"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"SM Entertainment’s culture complex space at Coex Artium."; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/culture/img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"N Seoul Tower Hanbok Culture Experience Center"; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"Visit the N Seoul Tower Hanbok Culture Experience Center and try on beautiful hanbok. "; }
+#eng:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/culture/img6.jpg) no-repeat center/cover; }
 
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
-#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"Hangang River"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"The most important landmark in the city, dividing Seoul north and south."; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/outdoor/img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"Bukhansan Mountain"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Bukhansan National Park is a rare national park in the city."; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/outdoor/img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"Cheonggyecheon Stream"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"A modern stream running through downtown Seoul"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/outdoor/img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"COEX Aquarium"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"One of largest aquariums in Korea with more than 180 exhibition tanks"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/outdoor/img4.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"Seoul Forest"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"Seoul Forest was established to satisfy people’s desire to have more green space and recreational places in the center of the city."; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/outdoor/img5.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"Jamsil Baseball Stadium"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"Korea's first baseball stadium"; }
+#eng:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/outdoor/img6.jpg) no-repeat center/cover; }
 
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"Myeong-dong"; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"Seoul's shopping mecca filled with beauty outlets, malls, street stalls, and more."; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"Insa-dong"; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"Experience Korea's traditional charm through food and shopping."; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:""; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:""; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:""; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:""; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:""; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:""; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
-#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:""; }
+#eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:""; }
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
 
 

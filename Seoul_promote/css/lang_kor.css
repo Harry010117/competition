@@ -13,7 +13,7 @@
 #kor:checked ~ #visual .content .more .textbox:nth-child(4):before { content: "주목할 만한 명소로는 곡선으로 이루어진 외관과 옥상 공원을 특징으로 하는" }
 #kor:checked ~ #visual .content .more .textbox:nth-child(5):before { content: "초현대적 디자인의 컨벤션 홀인 동대문디자인플라자," }
 #kor:checked ~ #visual .content .more .textbox:nth-child(6):before { content: "한때 7,000여 칸의 방이 자리하던 경복궁, 회화나무와 소나무 고목이 있는 조계사가 있습니다." }
-#kor:checked ~ #visual .layer .center .btn .text:before { content: "서울에 대하여"; }
+#kor:checked ~ #visual .layer .center .btn .text:before { content: "서울에 대해서"; }
 #kor:checked ~ #visual #more:checked ~ .wrap .more_cover { width: 605px; transition: width 2s ease; }
 #kor:checked ~ #visual #more:checked ~ .wrap .btn .text:before { content: "닫기"; }
 
@@ -24,22 +24,26 @@
 #kor:checked ~ #place .wrap .theme:nth-child(4) p:before { content: "쇼핑"; }
 #kor:checked ~ #place .wrap .modal_btn div:before { content: "더 보기"; }
 
-#kor:checked ~ #place #theme1:checked ~ .wrap .content .title:before { content: "전통과 역사" }
-#kor:checked ~ #place #theme2:checked ~ .wrap .content .title:before { content: "문화" }
-#kor:checked ~ #place #theme3:checked ~ .wrap .content .title:before { content: "야외활동" }
-#kor:checked ~ #place #theme4:checked ~ .wrap .content .title:before { content: "쇼핑" }
+#kor:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .title:before { content: "전통과 역사" }
+#kor:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .desc:before { content: "전통과 역사" }
+#kor:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .title:before { content: "문화" }
+#kor:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .desc:before { content: "문화" }
+#kor:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .title:before { content: "야외활동" }
+#kor:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .desc:before { content: "야외활동" }
+#kor:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .title:before { content: "쇼핑" }
+#kor:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .desc:before { content: "쇼핑" }
 
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"경복궁";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"조선 왕조의 법궁";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"종묘";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"조선 왕조의 유교 사당";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"창덕궁";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"후원이 있는 한국의 유일한 궁궐";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"북촌 한옥마을";}
-#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"조선 왕조의 두 궁궐 사이에 위치한 한옥 마을";}
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"경복궁"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"경복궁은 조선시대 궁궐 중 처음이자 가장 큰 궁궐이었다."; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"종묘"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"종묘는 조선 왕조의 제사를 지내는 사당이다."; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"창덕궁"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"후원이 있는 한국의 유일한 궁전"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"북촌한옥마을"; }
+#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"조선시대 두 궁궐 사이에 위치한 한옥마을"; }
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/tradition/img4.jpg) no-repeat center/cover; }
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"서대문 형무소";}
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"일제 식민지 시대의 독립 운동에서 근대사에 이르기까지";}
@@ -48,43 +52,43 @@
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"지금은 복합문화공간이 된 구 서울역사";}
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/tradition/img6.jpg) no-repeat center/cover; }
 
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"동대문디자인플라자"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"놀라운 건축물을 자랑하는 이 공간은 서울에서 가장 최근에 열띤 전시회를 위해 사용된다."; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/culture/img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"홍대"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"홍대는 카페, 클럽, 패션, 언더그라운드 음악, 예술축제로 유명하다."; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/culture/img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"Klive K-Pop 홀로그램 콘서트"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"여러분이 가장 좋아하는 K-pop 스타들과 함께 레드 카펫 사진을 찍고, 싸이, 빅뱅, 2NE1과 같은 유명 가수들의 홀로그램이 무대에서 공연한다"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/culture/img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"세종문화회관"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"세종문화회관은 세계 최고의 공연장 중 하나인 다목적 아트센터입니다."; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/culture/img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"SMTOWN"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"삼성동 코엑스 아티움에 있는 SM 엔터테인먼트의 복합 문화 공간"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/culture/img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"남산타워 한복문화체험관"; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"N서울타워 한복문화체험센터에 가서 아름다운 한복을 입어보세요."; }
+#kor:checked ~ #place #theme2:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/culture/img6.jpg) no-repeat center/cover; }
 
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source//img1.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source//img2.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source//img3.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source//img4.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source//img5.jpg) no-repeat center/cover; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
-#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"한강"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"서울을 남북으로 나누는 이 도시에서 가장 중요한 랜드마크입니다."; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/outdoor/img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"북한산"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"북한산국립공원은 도시에서 보기 드문 국립공원입니다."; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/outdoor/img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"청계천"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"청계천에는 무수히 많은 이야기가 숨어있다. 그것은 600년 수도 서울이 가지는 역사이기도 하고, 서울 시민 개개인이 가진 소소한 추억이기도 하다."; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/outdoor/img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"코엑스 수족관"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"180개 이상의 전시탱크를 가진 한국의 가장 큰 수족관 중 하나"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/outdoor/img4.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"서울숲"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"서울숲은 도심 한복판에 녹지공간과 레크리에이션 공간을 늘리려는 사람들의 욕구를 충족시키기 위해 조성되었다."; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(6) .image { background: url(../source/outdoor/img5.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:"잠실야구장"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:"한국 최초의 야구장"; }
+#kor:checked ~ #place #theme3:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source/outdoor/img6.jpg) no-repeat center/cover; }
 
 #kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:; }
 #kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:; }
