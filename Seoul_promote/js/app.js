@@ -25,7 +25,7 @@ function mouseScrollAnimation (e) {
 	})
 	$(".bullet").css({background:"#dfdfdd"})
 	$(".bullet").eq(count).css({background:"#6789ca"})
-	if(count == 0) $(".bullet > .name").css({color:"#dfdfdd"})
+	if(count == 0 || count== 3) $(".bullet > .name").css({color:"#dfdfdd"})
 	else $(".bullet > .name").css({color:"#504e49"})
 }
 
@@ -38,7 +38,7 @@ function clickScrollAnimation () {
 	})
 	$(".bullet").css({background:"#dfdfdd"})
 	$(".bullet").eq(count).css({background:"#6789ca"})
-	if(count == 0) $(".bullet > .name").css({color:"#dfdfdd"})
+	if(count == 0 || count== 3) $(".bullet > .name").css({color:"#dfdfdd"})
 	else $(".bullet > .name").css({color:"#504e49"})
 }
 

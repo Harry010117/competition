@@ -111,6 +111,8 @@
 #eng:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
 
 
-#eng:checked ~ #food > .title p:before { content: "Taste Seoul" }
+#eng:checked ~ #food > .title p:before { content: "Taste Korea" }
 
-#eng:checked ~ #guide > .title p:before { content: "Recommended Course" }
+#eng:checked ~ #course > .title p:before { content: "Recommended Course" }
+
+#eng:checked ~ #contact > .title p:before { content: "Contact" }

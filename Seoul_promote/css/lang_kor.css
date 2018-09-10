@@ -25,25 +25,25 @@
 #kor:checked ~ #place .wrap .modal_btn div:before { content: "더 보기"; }
 
 #kor:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .title:before { content: "전통과 역사" }
-#kor:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .desc:before { content: "전통과 역사" }
+#kor:checked ~ #place #theme1:checked ~ .wrap .content_wrap > .desc:before { content: "한국의 전통 체험하기" }
 #kor:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .title:before { content: "문화" }
-#kor:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .desc:before { content: "문화" }
+#kor:checked ~ #place #theme2:checked ~ .wrap .content_wrap > .desc:before { content: "절대 잠들지 않는 도시 서울" }
 #kor:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .title:before { content: "야외활동" }
-#kor:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .desc:before { content: "야외활동" }
+#kor:checked ~ #place #theme3:checked ~ .wrap .content_wrap > .desc:before { content: "다양한 야외 활동 경험하기" }
 #kor:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .title:before { content: "쇼핑" }
-#kor:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .desc:before { content: "쇼핑" }
+#kor:checked ~ #place #theme4:checked ~ .wrap .content_wrap > .desc:before { content: "서울 여행을 기념할만한 물건들" }
 
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"경복궁"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"경복궁은 조선시대 궁궐 중 처음이자 가장 큰 궁궐이었다."; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"종묘"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"종묘는 조선 왕조의 제사를 지내는 사당이다."; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"창덕궁"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"후원이 있는 한국의 유일한 궁전"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"북촌한옥마을"; }
-#eng:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"조선시대 두 궁궐 사이에 위치한 한옥마을"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(1):before { content:"경복궁"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .text:nth-child(2):before { content:"경복궁은 조선시대 궁궐 중 가장 큰 최초의 궁궐이었다."; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(2) .image { background: url(../source/tradition/img1.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(1):before { content:"종묘"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .text:nth-child(2):before { content:"종묘는 조선 왕조의 제사를 지내는 사당이다."; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(3) .image { background: url(../source/tradition/img2.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(1):before { content:"창덕궁"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .text:nth-child(2):before { content:"후원이 있는 한국의 유일한 궁전"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(4) .image { background: url(../source/tradition/img3.jpg) no-repeat center/cover; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(1):before { content:"북촌한옥마을"; }
+#kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .text:nth-child(2):before { content:"조선시대 두 궁궐 사이에 위치한 한옥마을"; }
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(5) .image { background: url(../source/tradition/img4.jpg) no-repeat center/cover; }
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(1):before { content:"서대문 형무소";}
 #kor:checked ~ #place #theme1:checked ~ .wrap .slide_box .slide:nth-child(6) .text:nth-child(2):before { content:"일제 식민지 시대의 독립 운동에서 근대사에 이르기까지";}
@@ -109,6 +109,8 @@
 #kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
 #kor:checked ~ #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
 
-#kor:checked ~ #food > .title p:before { content: "서울을 맛보다" }
+#kor:checked ~ #food > .title p:before { content: "한국을 맛보다" }
 
-#kor:checked ~ #guide > .title p:before { content: "서울여행 정보" }
+#kor:checked ~ #course > .title p:before { content: "추천 코스" }
+
+#kor:checked ~ #contact > .title p:before { content: "문의하기" }
