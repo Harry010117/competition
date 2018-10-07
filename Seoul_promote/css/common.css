@@ -165,7 +165,8 @@ footer { position: absolute; width: 100%; height: 50px; bottom: 0; text-align: c
 
 
 /* food */
-#food { position: relative; background: url(../source/bg_food.jpg) no-repeat fixed center/cover !important; }
+#food { position: relative; background: #fff; }
+#food > * { z-index: 10; color: #fff; }
 #food .wrap { width: 85vw; height: 80%; display: flex; justify-content: center; align-items: center; }
 #food .wrap .toL,
 #food .wrap .toR { width: 2.5%; height: 3%; display: flex; justify-content: center; align-items: center; position: relative; }
@@ -174,9 +175,9 @@ footer { position: absolute; width: 100%; height: 50px; bottom: 0; text-align: c
 #food .wrap .slide { overflow: hidden; width: 95%; height: 100%; }
 #food .wrap .slide_wrap { transition: .5s; width: 250%; height: 100%; display: flex; }
 #food .wrap .slide_block { width: 10%; height: 100%; display: flex; justify-content: center; align-items: center; }
-#food .wrap .slide_content { width: 90%; height: 90%; background: #ffa; }
-#food .wrap .slide_content .image { width: 100%; height: 75%; }
-#food .wrap .slide_content .text { width: 100%; height: 25%; }
+#food .wrap .slide_content { position: relative; width: 90%; height: 90%; background: #ffa; }
+#food .wrap .slide_content .image { width: 100%; height: 100%; }
+#food .wrap .slide_content .text { background: rgba(0,0,0,0.5); width: 100%; height: 30%; position: absolute; bottom: 0; }
 
 #food_pos1:checked ~ .slide .slide_wrap { margin-left: 0%; }
 #food_pos2:checked ~ .slide .slide_wrap { margin-left: -25%; }
