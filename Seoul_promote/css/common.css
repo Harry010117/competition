@@ -205,11 +205,12 @@ footer { position: absolute; width: 100%; height: 50px; bottom: 0; text-align: c
 #course .wrap .map { width: 77.5%; height: 100%; background: #fff; border-radius: 10px; overflow: hidden; }
 #course .wrap .map .title { display: flex; align-items: center; padding-left: 20px; font-size: 25px; background: #6789ca; width: 100%; height: 10%; }
 #course .wrap .map .course { height: 90%; background: url(../source/map.png)no-repeat center/cover; }
-
-#contact { position: relative; background: url(../source/bg_contact.png) no-repeat fixed center/cover !important; }
-#contact:before { z-index: 2; position: absolute; content: ""; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
-#contact > * { z-index: 10; color: #fff; }
 #list1:checked ~ .list .border { margin-top:0px }
 #list2:checked ~ .list .border { margin-top:85px }
 #list3:checked ~ .list .border { margin-top:170px }
 #list4:checked ~ .list .border { margin-top:255px }
+
+#contact { position: relative; background: url(../source/bg_contact.png) no-repeat fixed center/cover !important; }
+#contact:before { z-index: 2; position: absolute; content: ""; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+#contact > * { z-index: 10; color: #fff; }
+#contact .wrap { width: 90%; height: 90%; display: flex; }

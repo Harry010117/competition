@@ -89,9 +89,3 @@
 #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(1):before { content:; }
 #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .text:nth-child(2):before { content:; }
 #place #theme4:checked ~ .wrap .slide_box .slide:nth-child(7) .image { background: url(../source//img6.jpg) no-repeat center/cover; }
-
-#food > .title p:before { content: "한국을 맛보다" }
-
-#course > .title p:before { content: "추천 코스" }
-
-#contact > .title p:before { content: "문의하기" }
