@@ -86,7 +86,7 @@
 			</div>
 			<div class="wrap">
 				<div class="theme_block">
-					<label for="theme1" class="theme">
+					<label for="theme1" data-type="tradition" class="theme">
 						<div class="layer">
 							<div class="text">
 								<p>전통과 역사</p>
@@ -94,7 +94,7 @@
 						</div>
 						<div class="image"></div>
 					</label>
-					<label for="theme2" class="theme">
+					<label for="theme2" data-type="culture" class="theme">
 						<div class="layer">
 							<div class="text">
 								<p>문화</p>
@@ -102,7 +102,7 @@
 						</div>
 						<div class="image"></div>
 					</label>
-					<label for="theme3" class="theme">
+					<label for="theme3" data-type="outdoor" class="theme">
 						<div class="layer">
 							<div class="text">
 								<p>야외활동</p>
@@ -110,7 +110,7 @@
 						</div>
 						<div class="image"></div>
 					</label>
-					<label for="theme4" class="theme">
+					<label for="theme4" data-type="shopping" class="theme">
 						<div class="layer">
 							<div class="text">
 								<p>쇼핑</p>
@@ -404,58 +404,38 @@
 			<div class="wrap">
 				<div class="course_make">
 					<div class="title">관광지 선택</div>
-					<div class="course">
-						<div class="result"></div>
+					<div class="content">
 						<div class="pick">
 							<form>
+								<input type="checkbox" name="place" id="place1">
+								<input type="checkbox" name="place" id="place2">
+								<input type="checkbox" name="place" id="place3">
+								<input type="checkbox" name="place" id="place4">
+								<input type="checkbox" name="place" id="place5">
+								<input type="checkbox" name="place" id="place6">
+								<input type="checkbox" name="place" id="place7">
+								<input type="checkbox" name="place" id="place8">
 								<div>
-									<input type="checkbox" name="place" id="place1">
-									<label for="place1">경복궁</label>
+									<label class="chk1" for="place1">경복궁</label>
+									<label class="chk2" for="place2">창덕궁</label>
+									<label class="chk3" for="place3">DDP</label>
+									<label class="chk4" for="place4">홍대</label>
+									<label class="chk5" for="place5">SMTOWN</label>
+									<label class="chk6" for="place6">명동</label>
+									<label class="chk7" for="place7">한강</label>
+									<label class="chk8" for="place8">북한산</label>
 								</div>
-								<div>
-									<input type="checkbox" name="place" id="place2">
-									<label for="place2">북촌한옥마을</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place3">
-									<label for="place3">창덕궁</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place4">
-									<label for="place4">DDP</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place5">
-									<label for="place5">홍대</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place6">
-									<label for="place6">SMTOWN</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place7">
-									<label for="place7">명동</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place8">
-									<label for="place8">한강</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place9">
-									<label for="place9">북한산</label>
-								</div>
-								<div>
-									<input type="checkbox" name="place" id="place10">
-									<label for="place10">청계천</label>
-								</div>
-								<button type="submit">코스 확인</button>
+								<button type="submit">코스 만들기</button>
 							</form>
 						</div>
 					</div>
 				</div>
 				<div class="course_display">
 					<div class="title">결과</div>
-					<div class="course">
+					<div class="content">
+						<div>asdf</div>
+						<i class="fa fa-angle-right fa-3x"></i>
+						<div>asdf</div>
 					</div>
 				</div>
 			</div>

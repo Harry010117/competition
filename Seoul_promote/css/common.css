@@ -198,22 +198,27 @@ footer { position: absolute; width: 100%; height: 50px; bottom: 0; text-align: c
 #course { position: relative; background: url(../source/bg_course.png) no-repeat fixed center/cover !important; }
 #course:before { z-index: 2; position: absolute; content: ""; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
 #course > * { z-index: 10; color: #fff; }
-#course .wrap { width: 85vw; height: 80%; display: flex; justify-content: space-between; align-items: center; }
+#course .wrap { color: #000; width: 85vw; height: 80%; display: flex; justify-content: space-between; align-items: center; }
 #course .wrap .course_make,
 #course .wrap .course_display { width: 49%; height: 100%; background: #fff; overflow: hidden; }
 #course .wrap .course_make .title,
-#course .wrap .course_display .title { display: flex; align-items: center; padding-left: 20px; font-size: 25px; background: #6789ca; width: 100%; height: 10%; }
-#course .wrap .course_make .course,
-#course .wrap .course_display .course { height: 90%; }
-#course .pick { width: 100%; height: 50%; display: flex; justify-content: center; align-items: center; }
-#course .pick form { color: #000; display: flex; flex-wrap: wrap; width: 90%; height: 90%; }
-#course .pick form > div { width: 20%; height: 20%; }
-#course .pick label { display: inline-block; }
-#course .pick input { display: inline-block; }
-#list1:checked ~ .list .border { margin-top:0px }
-#list2:checked ~ .list .border { margin-top:85px }
-#list3:checked ~ .list .border { margin-top:170px }
-#list4:checked ~ .list .border { margin-top:255px }
+#course .wrap .course_display .title { display: flex; align-items: center; padding-left: 20px; font-size: 25px; background: #6789ca; color: #fff; width: 100%; height: 10%; }
+#course .wrap .course_make .content,
+#course .wrap .course_display .content { height: 90%; }
+#course .wrap .course_display .content div { display: inline-block; font-size: 3em; }
+#course .pick { width: 100%; height: 75%; display: flex; justify-content: center; align-items: center; }
+#course .pick form { display: flex; flex-wrap: wrap; width: 90%; height: 90%; }
+#course .pick form div { display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%; height: 90%; margin: 0 auto; }
+#course .pick form label { width: 22.5%; height: 40%; box-sizing: border-box; font-size: 20px; display: flex; justify-content: center; align-items: center; border: 1px solid #dfdfdd }
+#course .pick form button { width: 25%; height: 20%; margin-top: 20px; font-size: 20px; color: #fff; display: block; margin: 0 auto; background: #a4a199; border: none; }
+#place1:checked ~ div .chk1,
+#place2:checked ~ div .chk2,
+#place3:checked ~ div .chk3,
+#place4:checked ~ div .chk4,
+#place5:checked ~ div .chk5,
+#place6:checked ~ div .chk6,
+#place7:checked ~ div .chk7,
+#place8:checked ~ div .chk8 { background: #6789ca; color: #fff; border: none; }
 
 #contact { position: relative; background: url(../source/bg_contact.png) no-repeat fixed center/cover !important; }
 #contact:before { z-index: 2; position: absolute; content: ""; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
