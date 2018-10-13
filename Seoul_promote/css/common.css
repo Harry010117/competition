@@ -40,9 +40,6 @@ footer { position: absolute; width: 100%; height: 50px; bottom: 0; text-align: c
 .bullet { background: #dfdfdd; width: 10px; height: 45px; display: flex; justify-content: center; align-items: center; cursor: pointer; }
 .bullet .name { pointer-events: none; transition: 0.3s; width: 60px; opacity: 0; color: #504e49; position: absolute; left: -70px; text-align: right; }
 .bullet:hover .name { pointer-events: auto; opacity: 1; }
-#kor:checked ~ #visual .layer .lang .lang_cover:nth-child(1) .lang_btn:after { width: 100%; }
-#eng:checked ~ #visual .layer .lang .lang_cover:nth-child(2) .lang_btn:after { width: 100%; }
-
 /* visual */
 #visual { color: #fff; }
 #visual .wrap { position: relative; width: 100%; height: 100%; overflow: hidden; }

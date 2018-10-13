@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tour Seoul</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/lang_eng.css">
+	<link rel="stylesheet" type="text/css" href="./css/lang_kor.css">
+	<link rel="stylesheet" type="text/css" href="./font/font-awesome/css/font-awesome.css">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+</head>
+<body>
+	<input type="radio" name="lang" id="eng" checked="">
+	<input type="radio" name="lang" id="kor">
+	<div class="cover">
+		<div class="bullet_box">
+			<div class="bullet">
+				<div class="name">메인</div>
+			</div>
+			<div class="bullet">
+				<div class="name">관광명소</div>
+			</div>
+			<div class="bullet">
+				<div class="name">음식</div>
+			</div>
+			<div class="bullet">
+				<div class="name">지도</div>
+			</div>
+			<div class="bullet">
+				<div class="name">추천코스</div>
+			</div>
+		</div>
+	</div>
+	<section id="visual">
+		<input type="checkbox" name="more" id="more">
+		<div class="wrap">
+			<div class="layer">
+				<div class="top">
+					<div class="logo"></div>
+					<div class="lang">
+						<div class="lang_cover">
+							<label for="kor" class="lang_btn">한국어</label>
+						</div>
+						<div class="lang_cover">
+							<label for="eng" class="lang_btn">ENGLISH</label>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="center text">
+						<p>서울에 어서오세요!</p>
+						<label for="more" class="btn">
+							<div class="hov_block toR"></div>
+							<div class="text"></div>
+							<div class="hov_block toL"></div>
+						</label>
+					</div>
+					<div class="bar"></div>
+					<div class="more_cover">
+						<div class="more text">
+							<div class="title">서울은?</div>
+							<div class="textbox">대한민국의 수도인 서울은 현대적인 고층 빌딩, 첨단 기술의 지하철,</div>
+							<div class="textbox">대중문화와 사찰, 고궁, 노점상이 공존하는 대도시입니다.</div>
+							<div class="textbox">주목할 만한 명소로는 곡선으로 이루어진 외관과 옥상 공원을 특징으로 하는</div>
+							<div class="textbox">초현대적 디자인의 컨벤션 홀인 동대문디자인플라자,</div>
+							<div class="textbox">한때 7,000여 칸의 방이 자리하던 경복궁, 회화나무와 소나무 고목이 있는 조계사가 있습니다.</div>
+						</div>
+					</div>
+				</div>
+				<div class="arrow">
+					<i class="fa fa-angle-double-down fa-3x"></i>
+				</div>
+			</div>
+			<video autoplay loop>
+				<source src="./source/promotion_vid.mp4" type="video/mp4">
+			</video>	
+		</div>
+	</section>
+	<section id="place">
+		<input type="radio" name="theme" id="theme1" checked>
+		<input type="radio" name="theme" id="theme2">
+		<input type="radio" name="theme" id="theme3">
+		<input type="radio" name="theme" id="theme4">
+		<div class="title">
+			<p>서울 TOP 관광명소</p>
+			<div class="bar"></div>
+		</div>
+		<div class="wrap">
+			<div class="theme_block">
+				<label for="theme1" class="theme">
+					<div class="layer">
+						<div class="text">
+							<p>전통과 역사</p>
+						</div>
+					</div>
+					<div class="image"></div>
+				</label>
+				<label for="theme2" class="theme">
+					<div class="layer">
+						<div class="text">
+							<p>문화</p>
+						</div>
+					</div>
+					<div class="image"></div>
+				</label>
+				<label for="theme3" class="theme">
+					<div class="layer">
+						<div class="text">
+							<p>야외활동</p>
+						</div>
+					</div>
+					<div class="image"></div>
+				</label>
+				<label for="theme4" class="theme">
+					<div class="layer">
+						<div class="text">
+							<p>쇼핑</p>
+						</div>
+					</div>
+					<div class="image"></div>
+				</label>
+			</div>
+			<div class="content">
+				<input type="radio" name="place_pos" id="place_pos1" checked>
+				<input type="radio" name="place_pos" id="place_pos2">
+				<input type="radio" name="place_pos" id="place_pos3">
+				<input type="radio" name="place_pos" id="place_pos4">
+				<input type="radio" name="place_pos" id="place_pos5">
+				<input type="radio" name="place_pos" id="place_pos6">
+				<div class="content_wrap">
+					<p class="title"></p>
+					<p class="desc"></p>
+					<div class="slide_align">
+						<div class="slide_controller">
+							<div class="L arrow_box">
+								<div class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</div>
+								<label for="place_pos1" class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</label>
+								<label for="place_pos2" class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</label>
+								<label for="place_pos3" class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</label>
+								<label for="place_pos4" class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</label>
+								<label for="place_pos5" class="arrow">
+									<i class="fa fa-angle-left fa-3x"></i>
+								</label>
+							</div>
+							<div class="slide_box">
+								<div class="slide dummy"></div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="image"></div>
+									<div class="desc">
+										<p class="text"></p>
+										<p class="text"></p>
+										<div class="modal_btn">
+											<div></div>
+										</div>
+									</div>
+								</div>
+								<div class="slide dummy"></div>
+							</div>
+							<div class="R arrow_box">
+								<label for="place_pos2" class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</label>
+								<label for="place_pos3" class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</label>
+								<label for="place_pos4" class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</label>
+								<label for="place_pos5" class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</label>
+								<label for="place_pos6" class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</label>
+								<div class="arrow">
+									<i class="fa fa-angle-right fa-3x"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="food">
+		<div class="title">
+			<p></p>
+			<div class="bar"></div>
+		</div>
+		<div class="wrap">
+			<input type="radio" name="food_pos" id="food_pos1" checked="">
+			<input type="radio" name="food_pos" id="food_pos2">
+			<input type="radio" name="food_pos" id="food_pos3">
+			<input type="radio" name="food_pos" id="food_pos4">
+			<input type="radio" name="food_pos" id="food_pos5">
+			<input type="radio" name="food_pos" id="food_pos6">
+			<input type="radio" name="food_pos" id="food_pos7">
+			<div class="arrow_box toL">
+				<div class="arrow">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</div>
+				<label class="arrow" for="food_pos1">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos2">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos3">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos4">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos5">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos6">
+					<i class="fa fa-angle-left fa-3x"></i>
+				</label>
+			</div>
+			<div class="slide">
+				<div class="slide_wrap">
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title">asdf</p>
+								<p class="desc">asdf</p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+					<div class="slide_block">
+						<div class="slide_content">
+							<div class="image"></div>
+							<div class="text">
+								<p class="title"></p>
+								<p class="desc"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="arrow_box toR">
+				<label class="arrow" for="food_pos2">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos3">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos4">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos5">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos6">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<label class="arrow" for="food_pos7">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</label>
+				<div class="arrow">
+					<i class="fa fa-angle-right fa-3x"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="course">
+		<div class="title">
+			<p></p>
+			<div class="bar"></div>
+		</div>
+		<div class="wrap">
+			<input type="radio" name="list" id="list1">
+			<input type="radio" name="list" id="list2">
+			<input type="radio" name="list" id="list3">
+			<input type="radio" name="list" id="list4">
+			<div class="list">
+				<label class="lcontent" for="list1">
+					<div class="border"></div>
+					List1
+				</label>
+				<label class="lcontent" for="list2">
+					List2
+				</label>
+				<label class="lcontent" for="list3">
+					List3
+				</label>
+				<label class="lcontent" for="list4">
+					List4
+				</label>
+			</div>
+			<div class="map">
+				<div class="title">ASDF</div>
+				<div class="course">
+					<div class="image"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="title">
+			<p></p>
+			<div class="bar"></div>
+		</div>
+		<div class="wrap">
+			<div class="block">
+				<div class="title">
+					<p></p>
+					<div class="bar"></div>
+				</div>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="block">
+				<div class="title">
+					<p></p>
+					<div class="bar"></div>
+				</div>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="block">
+				<div class="title">
+					<p></p>
+					<div class="bar"></div>
+				</div>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="block">
+				<div class="title">
+					<p></p>
+					<div class="bar"></div>
+				</div>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			Copyright &copy; ASDF All Right Reserved.
+		</footer>
+	</section>
+</body>
+</html>

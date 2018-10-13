@@ -1,4 +1,5 @@
 #kor:checked ~ .cover .bullet .name { font-size: 15px; }
+#visual .layer .lang .lang_cover:nth-child(1) .lang_btn:after { width: 100%; }
 #kor:checked ~ #visual .layer .logo { background: url(../source/logo_seoul_korean.png) no-repeat center/cover; width: 60px; height: 104px; }
 #kor:checked ~ #visual .layer .center .btn .text:before { content: "서울에 대해서"; }
 #kor:checked ~ #visual #more:checked ~ .wrap .more_cover { width: 605px; transition: width 2s ease; }
