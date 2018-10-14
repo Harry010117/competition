@@ -6,9 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/common.css">
 	<link rel="stylesheet" type="text/css" href="./css/lang_kor.css">
 	<link rel="stylesheet" type="text/css" href="./font/font-awesome/css/font-awesome.css">
-	<script type="text/javascript" src="./js/jquery.js"></script>
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/app.js"></script>
 </head>
 <body>
 	<div class="cover">
@@ -403,10 +400,13 @@
 			</div>
 			<div class="wrap">
 				<div class="course_make">
-					<div class="title">관광지 선택</div>
+					<div class="title">
+						<i class="fa fa-star"></i>
+						&nbsp;여행지를 선택하세요
+					</div>
 					<div class="content">
 						<div class="pick">
-							<form>
+							<form method="post" class="path_form">
 								<input type="checkbox" name="place" id="place1">
 								<input type="checkbox" name="place" id="place2">
 								<input type="checkbox" name="place" id="place3">
@@ -431,29 +431,40 @@
 					</div>
 				</div>
 				<div class="course_display">
-					<div class="title">결과</div>
+					<div class="title">
+						<i class="fa fa-star"></i>
+						&nbsp;결과
+					</div>
 					<div class="content">
-						<div>asdf</div>
-						<i class="fa fa-angle-right fa-3x"></i>
-						<div>asdf</div>
+						<div>장소간 거리를 계산해 최단 코스를 생성합니다.</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="contact">
-			<div class="title">
-				<p>Tour Seoul 소개</p>
-				<div class="bar"></div>
-			</div>
-			<div class="wrap">
-				<div class="intro">
-
-				</div>
-				<div class="goal"></div>
+		<section id="outro">
+			<div class="text">
+				안전하고 즐거운 여행 되세요!
 			</div>
 			<footer>
 				Copyright &copy; HOXY All Right Reserved.
 			</footer>
 		</section>
+		<div class="modal">
+			<div class="wrap">
+				<div class="close_btn">
+					<div>
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="main-content">
+					<div class="image"></div>
+					<div class="name"></div>
+					<div class="content"></div>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/data_kor.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
 	</body>
 	</html>

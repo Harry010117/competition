@@ -5,31 +5,25 @@
 	<title>Tour Seoul</title>
 	<link rel="stylesheet" type="text/css" href="./css/common.css">
 	<link rel="stylesheet" type="text/css" href="./css/lang_eng.css">
-	<link rel="stylesheet" type="text/css" href="./css/lang_kor.css">
 	<link rel="stylesheet" type="text/css" href="./font/font-awesome/css/font-awesome.css">
-	<script type="text/javascript" src="./js/jquery.js"></script>
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/app.js"></script>
 </head>
 <body>
-	<input type="radio" name="lang" id="eng" checked="">
-	<input type="radio" name="lang" id="kor">
 	<div class="cover">
 		<div class="bullet_box">
 			<div class="bullet">
-				<div class="name">메인</div>
+				<div class="name">Main</div>
 			</div>
 			<div class="bullet">
-				<div class="name">관광명소</div>
+				<div class="name">Place</div>
 			</div>
 			<div class="bullet">
-				<div class="name">음식</div>
+				<div class="name">Food</div>
 			</div>
 			<div class="bullet">
-				<div class="name">지도</div>
+				<div class="name">Map</div>
 			</div>
 			<div class="bullet">
-				<div class="name">추천코스</div>
+				<div class="name">Guide</div>
 			</div>
 		</div>
 	</div>
@@ -41,16 +35,16 @@
 					<div class="logo"></div>
 					<div class="lang">
 						<div class="lang_cover">
-							<label for="kor" class="lang_btn">한국어</label>
+							<a href="kor.html" class="lang_btn">한국어</a>
 						</div>
 						<div class="lang_cover">
-							<label for="eng" class="lang_btn">ENGLISH</label>
+							<a href="index.html" class="lang_btn">ENGLISH</a>
 						</div>
 					</div>
 				</div>
 				<div class="content">
 					<div class="center text">
-						<p>서울에 어서오세요!</p>
+						<p>Welcome to Seoul!</p>
 						<label for="more" class="btn">
 							<div class="hov_block toR"></div>
 							<div class="text"></div>
@@ -60,12 +54,12 @@
 					<div class="bar"></div>
 					<div class="more_cover">
 						<div class="more text">
-							<div class="title">서울은?</div>
-							<div class="textbox">대한민국의 수도인 서울은 현대적인 고층 빌딩, 첨단 기술의 지하철,</div>
-							<div class="textbox">대중문화와 사찰, 고궁, 노점상이 공존하는 대도시입니다.</div>
-							<div class="textbox">주목할 만한 명소로는 곡선으로 이루어진 외관과 옥상 공원을 특징으로 하는</div>
-							<div class="textbox">초현대적 디자인의 컨벤션 홀인 동대문디자인플라자,</div>
-							<div class="textbox">한때 7,000여 칸의 방이 자리하던 경복궁, 회화나무와 소나무 고목이 있는 조계사가 있습니다.</div>
+							<div class="title">About Seoul</div>
+							<div class="textbox">Seoul, the capital of the Republic of Korea, is a metropolis with modern high-rise buildings, high-tech subways,</div>
+							<div class="textbox">popular culture and temples, old palaces and street vendors.</div>
+							<div class="textbox">Notable attractions include the Dongdaemun Design Plaza, </div>
+							<div class="textbox">a convention hall with ultra-modern design featuring curved exterior and rooftop park,</div>
+							<div class="textbox">Gyeongbok Palace which once had 7,000 rooms, Jogye Temple with painting trees and pine trees.</div>
 						</div>
 					</div>
 				</div>
@@ -84,39 +78,40 @@
 		<input type="radio" name="theme" id="theme3">
 		<input type="radio" name="theme" id="theme4">
 		<div class="title">
-			<p>서울 TOP 관광명소</p>
+			<p>Top experiences in Seoul</p>
 			<div class="bar"></div>
 		</div>
 		<div class="wrap">
 			<div class="theme_block">
-				<label for="theme1" class="theme">
+				<label for="theme1" data-type="tradition" class="theme">
 					<div class="layer">
 						<div class="text">
-							<p>전통과 역사</p>
+							<p>Historical &</p>
+							<p>Traditional</p>
 						</div>
 					</div>
 					<div class="image"></div>
 				</label>
-				<label for="theme2" class="theme">
+				<label for="theme2" data-type="culture" class="theme">
 					<div class="layer">
 						<div class="text">
-							<p>문화</p>
+							<p>Culture</p>
 						</div>
 					</div>
 					<div class="image"></div>
 				</label>
-				<label for="theme3" class="theme">
+				<label for="theme3" data-type="outdoor" class="theme">
 					<div class="layer">
 						<div class="text">
-							<p>야외활동</p>
+							<p>Outdoor</p>
 						</div>
 					</div>
 					<div class="image"></div>
 				</label>
-				<label for="theme4" class="theme">
+				<label for="theme4" data-type="shopping" class="theme">
 					<div class="layer">
 						<div class="text">
-							<p>쇼핑</p>
+							<p>Shopping</p>
 						</div>
 					</div>
 					<div class="image"></div>
@@ -246,7 +241,7 @@
 	</section>
 	<section id="food">
 		<div class="title">
-			<p></p>
+			<p>Taste Korea</p>
 			<div class="bar"></div>
 		</div>
 		<div class="wrap">
@@ -286,8 +281,8 @@
 						<div class="slide_content">
 							<div class="image"></div>
 							<div class="text">
-								<p class="title">asdf</p>
-								<p class="desc">asdf</p>
+								<p class="title"></p>
+								<p class="desc"></p>
 							</div>
 						</div>
 					</div>
@@ -398,98 +393,77 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>		
 	<section id="course">
-		<div class="title">
-			<p></p>
-			<div class="bar"></div>
-		</div>
-		<div class="wrap">
-			<input type="radio" name="list" id="list1">
-			<input type="radio" name="list" id="list2">
-			<input type="radio" name="list" id="list3">
-			<input type="radio" name="list" id="list4">
-			<div class="list">
-				<label class="lcontent" for="list1">
-					<div class="border"></div>
-					List1
-				</label>
-				<label class="lcontent" for="list2">
-					List2
-				</label>
-				<label class="lcontent" for="list3">
-					List3
-				</label>
-				<label class="lcontent" for="list4">
-					List4
-				</label>
+			<div class="title">
+				<p>Make Your Own Course</p>
+				<div class="bar"></div>
 			</div>
-			<div class="map">
-				<div class="title">ASDF</div>
-				<div class="course">
-					<div class="image"></div>
+			<div class="wrap">
+				<div class="course_make">
+					<div class="title">
+						<i class="fa fa-star"></i>
+						&nbsp;Select a tourist destination
+					</div>
+					<div class="content">
+						<div class="pick">
+							<form method="post" class="path_form">
+								<input type="checkbox" name="place" id="place1">
+								<input type="checkbox" name="place" id="place2">
+								<input type="checkbox" name="place" id="place3">
+								<input type="checkbox" name="place" id="place4">
+								<input type="checkbox" name="place" id="place5">
+								<input type="checkbox" name="place" id="place6">
+								<input type="checkbox" name="place" id="place7">
+								<input type="checkbox" name="place" id="place8">
+								<div>
+									<label class="chk1" for="place1">Gyeongbokgung Palace</label>
+									<label class="chk2" for="place2">Changdeokgung Palace</label>
+									<label class="chk3" for="place3">Dongdaemun Design Plaza</label>
+									<label class="chk4" for="place4">Hongdae</label>
+									<label class="chk5" for="place5">SMTOWN</label>
+									<label class="chk6" for="place6">Myeong-dong</label>
+									<label class="chk7" for="place7">Hangang River</label>
+									<label class="chk8" for="place8">Bukhansan Mountain</label>
+								</div>
+								<button type="submit">코스 만들기</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="course_display">
+					<div class="title">
+						<i class="fa fa-star"></i>
+						&nbsp;Result
+					</div>
+					<div class="content">
+						<div>
+							Calculate the distance between places to create the shortest course.
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<section id="contact">
-		<div class="title">
-			<p></p>
-			<div class="bar"></div>
-		</div>
-		<div class="wrap">
-			<div class="block">
-				<div class="title">
-					<p></p>
-					<div class="bar"></div>
-				</div>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
+		</section>
+	<section id="outro">
+		<div class="text">
+				Have a nice, safe trip!
 			</div>
-			<div class="block">
-				<div class="title">
-					<p></p>
-					<div class="bar"></div>
-				</div>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-			<div class="block">
-				<div class="title">
-					<p></p>
-					<div class="bar"></div>
-				</div>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-			<div class="block">
-				<div class="title">
-					<p></p>
-					<div class="bar"></div>
-				</div>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-		</div>
 		<footer>
 			Copyright &copy; ASDF All Right Reserved.
 		</footer>
 	</section>
+	<div class="modal">
+		<div class="wrap">
+			<div class="close_btn"><div><i class="fa fa-angle-right"></i></div></div>
+			<div class="main-content">
+				<div class="image"></div>
+				<div class="name"></div>
+				<div class="content"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/data_eng.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
 </body>
 </html>
